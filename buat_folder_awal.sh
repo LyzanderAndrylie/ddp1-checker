@@ -13,7 +13,7 @@ if [[ $masukan == "y" ]]; then
         mkdir -p solusi/Lab$i/output
     done
 
-    for i in {01.04}
+    for i in {01..04}
     do
         mkdir -p solusi/TP$i/input
         mkdir -p solusi/TP$i/output
