@@ -14,7 +14,7 @@ read pilihan
 if [[ $masukan == "y" && $pilihan == "all" ]]; then
     x=1
 
-    for output in solusi/"$tipe"/output/output*.txt
+    for output in solusi/"$tipe"/output/output?.txt solusi/"$tipe"/output/output??.txt
     do
         echo
         echo "========================================================================"
@@ -34,7 +34,7 @@ if [[ $masukan == "y" && $pilihan == "all" ]]; then
 elif [[ $masukan == "y" && $pilihan == "1" ]]; then
     x=1
 
-    for output in solusi/"$tipe"/output/output*.txt
+    for output in solusi/"$tipe"/output/output?.txt solusi/"$tipe"/output/output??.txt
     do
         echo
         echo "========================================================================"
